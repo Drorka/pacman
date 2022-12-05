@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  color:white;
+
+  width: 50%;
+  margin: auto;
+
+
+
+}
+
+/* .board-container {
+  width: 100%;
+} */
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  /* left: 50%; */
+  top: 15%;
+  width: 350px;
+  height: 150px;
+  margin: auto;
+  background-color: azure;
+  color: black;
+  text-align: center;
+}
+
+.modal span {
+font-size: 40px;
+margin-top: 20px;
+}
+
+.modal button {
+  margin-top: 30px;
+  left: 30%;
+  top: 25%;
+  width: 100px;
+  height: 35px;
+}
+
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
